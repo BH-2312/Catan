@@ -1,13 +1,27 @@
+* {
+    box-sizing: border-box;
+  }
+.banner{
+    width: 100%;
+}
 img{
     width: 5cm;
     height: 8cm;
-}
-.banner{
-    width: 62cm;
-    z-index: 0;
 }
 h1{
     text-shadow: black;
     font-size: larger;
 }
+    /*instructions for when screen size <768px*/
+    @media screen and (max-width: 768px) {
+    
+        .banner {
+          /* Box-model */
+          width: 100%;
+        }
+        .card-deck {
+            /* Box-model */
+            width: 100%;
+          }
+    }
 
